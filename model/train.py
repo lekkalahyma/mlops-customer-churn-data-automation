@@ -65,6 +65,4 @@ with mlflow.start_run():
     mlflow.sklearn.log_model(model, "random_forest_model")
 
     print(f"Accuracy: {accuracy}")
-    print("Model trained successfully!") 
-
-    
+    print("Model trained successfully!")
