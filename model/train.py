@@ -66,3 +66,6 @@ with mlflow.start_run():
 
     print(f"Accuracy: {accuracy}")
     print("Model trained successfully!")
+
+
+    
